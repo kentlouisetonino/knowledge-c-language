@@ -1,3 +1,3 @@
 ### [ `Description` ]
-- All cool things in sololearn.
+- All cool things in Sololearn.
 
