@@ -1,2 +1,3 @@
-## Description
-- A repository for all of the courses I've taken in Sololearn.
+### [ `Description` ]
+- All cool things in sololearn.
+
