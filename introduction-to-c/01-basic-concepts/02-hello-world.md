@@ -7,5 +7,21 @@
 
 stdio.h
 - A header file for standard input and ouptput.
+
+int main()
+- The entry point function that returns an integer.
+- 0 means success, other value means fail.
+
+{}
+- Called as code block.
+
+Escape Sequence (\)
+- Always begin a backslash and used to put nonprintable characters in character
+  and literal strings.
+- For example, you can use escape sequence to put such characters as tab, carriage
+  return, and backspace into an output stream.
+
+  \n
+    - Means new line.
 ```
 
