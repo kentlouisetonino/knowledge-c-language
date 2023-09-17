@@ -7,8 +7,11 @@ double: A double-precision floating point value.
 char: A single character.
 ```
 
+<br />
+
 > - The amount of storage required for each of these types varies by platform.
 
+<br />
 
 > - The `sizeof` is a built-in C operator that gives the memory requirements
     for a particular data type.
