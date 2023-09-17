@@ -13,7 +13,7 @@ char: A single character.
 > - The `sizeof` is a built-in C operator that gives the memory requirements
     for a particular data type.
 
-```c
+```plaintext
 https://github.com/kentlouisetonino/notes-sololearn/blob/develop/introduction-to-c/01-basic-concepts/03-sizeof.c
 
 Format Specifier (%)
