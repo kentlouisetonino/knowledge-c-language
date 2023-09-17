@@ -47,3 +47,10 @@ printf(arg1, arg2)
   to as conversion specifiers.
 ```
 
+<br />
+<br />
+
+
+
+### Variables
+
