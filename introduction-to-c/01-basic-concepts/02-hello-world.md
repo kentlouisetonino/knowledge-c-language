@@ -1,7 +1,7 @@
 ### Definition
-> - Reference: ![program](./02-hello-world.c)
-
 ```plaintext
+Code: https://github.com/kentlouisetonino/notes-sololearn/blob/develop/introduction-to-c/01-basic-concepts/02-hello-world.c
+
 #include
 - A preprocessor directive which is read by the preprocessor and instructs it
   to insert the contents of a user-defined or system header file in C/C++
