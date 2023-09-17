@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main() {
   // Display the sizeof corresponding types.
   printf("Size of int: %ld \n", sizeof(int));
