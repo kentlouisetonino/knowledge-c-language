@@ -24,4 +24,11 @@ gets()
 ```plaintext
 scanf()
     - Scans input that matches format specifiers.
+    - It stops reading as soon as it encounters a space.
+
+&
+    - An address operator.
+    - It gives the address, or location in memory, of a variable.
+    - This is needed, because Scanf places an input value at a
+      variable address.
 ```
