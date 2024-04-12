@@ -30,12 +30,58 @@ return 0;
 
 ```plaintext
 \a (Alert or Bell)
-    - Produces a bell sound.
     - Hex value in ASCII is "0x07".
+    - Produces a bell sound.
     - Note: Tried but doesn't work.
 
 \b (Backspace)
-    - Move the cursor back by one position.
     - Hex value in ASCII is "0x08",
+    - Move the cursor back by one position.
     - Example "Hello\b" will result to "Hell".
+
+\f (Form Feed)
+    - Hex value in ASCII is "0x0C".
+    - Advances the printer to the next page.
+
+\r (Carriage Return)
+    - Hex value in ASCII is "0x0D".
+    - Moves the cursor to the beginning of the line.
+
+\t (Horizontal Tab)
+    - Hex value in ASCII is "0x09".
+    - Moves the cursor to the next horizontal stop..
+
+\v (Vertical Tab)
+    - Hex value in ASCII is "0x0B".
+    - Moves the cursor to the next vertical tab stop.
+
+\\ (Backslash)
+    - Hex value in ASCII is "0x5C".
+    - Inserts a backslash character.
+
+\' (Single Quote)
+    - Hex value in ASCII is "0x27".
+    - Inserts a single quote character.
+
+\" (Double Quote)
+    - Hex value in ASCII is "0x22".
+    - Inserts a double quote character.
+
+\? (Question Mark)
+    - Hex value in ASCII is "0x3F".
+    - Inserts a question mark character.
+
+\0 (Null Character)
+    - Hex value in ASCII is "0x00".
+    - Inserts a null character.
+    - Note space is not same as null character, NULL has a
+      ASCII value 0, while ASCII value of 2.
+
+\nnn (Octal Value)
+    - Hex value in ASCII is "0x00" to "0xFF".
+    - Insert the equivalent value of octal nnn.
+
+\xhh (Hexadecimal Value)
+    - Hex value in ASCII is "0x00" to "0xFF".
+    - Insert the equivalent value of hh.
 ```

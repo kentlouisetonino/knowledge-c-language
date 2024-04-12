@@ -1,11 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World!");
-  printf("\n");
-
-  // Escape sequence.
-  // printf("\a");
-  // printf("Hello\b\bWorld");
+  printf("Octal \077 World");
   return 0;
 }
