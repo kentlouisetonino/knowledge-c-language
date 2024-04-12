@@ -1,3 +1,4 @@
 ### [ `Description` ]
-- All cool things in Sololearn.
+#
 
+> - All cool things in C language.
