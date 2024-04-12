@@ -12,3 +12,5 @@ Code Block {}
     - Indicate the beginning and end of a function.
     - The statements inside the code block determines what the function does.
 ```
+
+> - Refer to the sample code `code-hello.c`.
