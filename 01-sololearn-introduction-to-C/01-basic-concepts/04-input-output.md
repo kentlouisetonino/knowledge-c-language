@@ -25,6 +25,7 @@ gets()
 scanf()
     - Scans input that matches format specifiers.
     - It stops reading as soon as it encounters a space.
+    - If there is a space, then it is a two separate inputs.
 
 &
     - An address operator.
