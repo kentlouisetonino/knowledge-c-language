@@ -85,3 +85,10 @@ return 0;
     - Hex value in ASCII is "0x00" to "0xFF".
     - Insert the equivalent value of hh.
 ```
+
+> - Additional info in C.
+
+```plaintext
+- In C, zero is falsiable.
+- Any number greater than or less than zero is truthy.
+```
