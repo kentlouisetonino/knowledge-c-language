@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define CONSTANT2 1.0002
 
 void newLine(void) { printf("\n"); }
 
@@ -30,6 +31,14 @@ void variables(void) {
   newLine();
 }
 
+void constants(void) {
+  const double CONSTANT1 = 1.0001;
+  printf("Using const Keyword: %f", CONSTANT1);
+  newLine();
+  printf("Using define Preprocessor: %f", CONSTANT2);
+  newLine();
+}
+
 int main(void) {
   // Data types sample.
   dataTypes();
@@ -37,6 +46,10 @@ int main(void) {
 
   // Sample variables.
   variables();
+  newLine();
+
+  // Sample contants.
+  constants();
   newLine();
 
   return 0;

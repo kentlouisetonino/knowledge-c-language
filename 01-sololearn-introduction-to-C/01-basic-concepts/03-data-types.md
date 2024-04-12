@@ -44,7 +44,7 @@ char: 1
 ### Variables
 #
 
-> - Refer to the code `code-03.c`.
+> - Refer to the code `code-03.c` function `variables()`.
 
 ```plaintext
 - You can declare multiple variables in a single line
@@ -68,4 +68,35 @@ Identifier
 
 Note
     - C language is case-sensitive.
+```
+
+<br />
+<br />
+
+
+
+### Constant
+#
+
+> - Refer to the code `code-03.c` function `constants()`.
+
+```plaintext
+Constant
+    - Stores a value that cannot be changed.
+    - Use uppercase identifiers.
+    - Uses "const" keyword or "#define" preprocessor.
+
+const
+    - Constant keyword.
+    - Uses memory for storage.
+
+#define
+    - Preprocessor directive.
+    - Uses macros for defining constant values.
+    - Before compilation, the preprocessor replaces every macro
+      identifier in the code with its value from the directive.
+    - Every occurrence of "CONSTANT2" will be replace by "1.0002".
+    - The final code sent to the compiler will already have the
+      constant values in place.
+    - Does not use memory.
 ```
