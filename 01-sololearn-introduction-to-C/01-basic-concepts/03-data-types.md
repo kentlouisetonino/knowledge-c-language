@@ -1,7 +1,7 @@
 ### Data Types
 #
 
-> - Refer to the code `code-03.c`.
+> - Refer to the code `code-03.c` function `dataTypes()`.
 
 ```plaintext
 %ld
@@ -34,4 +34,38 @@ float: 4
 double: 8
 # 1 byte || 8 bits
 char: 1
+```
+
+<br />
+<br />
+
+
+
+### Variables
+#
+
+> - Refer to the code `code-03.c`.
+
+```plaintext
+- You can declare multiple variables in a single line
+  by separating them with comma.
+
+%f
+    - Format specifier for float data type.
+
+%c
+    - Format specifier for char data type.
+```
+
+```plaintext
+Variable
+    - Area in memory.
+
+Identifier
+    - The name of the variable.
+    - Must begin with letter or an underscore.
+    - Declared as a data type first before using.
+
+Note
+    - C language is case-sensitive.
 ```
