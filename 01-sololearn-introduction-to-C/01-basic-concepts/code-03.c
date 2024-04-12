@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+void dataTypes(void) {
   printf("MEMORY REQUIREMENTS");
   printf("\n");
   printf("int: %ld", sizeof(int));
@@ -11,6 +11,11 @@ int main(void) {
   printf("\n");
   printf("char: %ld", sizeof(char));
   printf("\n");
+}
+
+int main(void) {
+  // Data types sample.
+  dataTypes();
 
   return 0;
 }
