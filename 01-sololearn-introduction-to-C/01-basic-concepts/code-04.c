@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+void clearConsole(void) { system("clear"); }
 
 void newLine(void) { printf("\n"); }
 
@@ -41,6 +44,9 @@ void inputGets(void) {
 }
 
 int main(void) {
+  // Clear up the console.
+  clearConsole();
+
   // Example for getChar() function.
   inputGetChar();
   newLine();
