@@ -24,12 +24,11 @@ void inputGetChar(void) {
   // This handles the remaining characters.
   // Acting as a garbage collector.
   fgets(garbage, 100, stdin);
-
   newLine();
 }
 
 void inputGets(void) {
-  char planet[10];
+  char planet[100];
 
   printf("GETS FUNCTION EXAMPLE");
   newLine();
@@ -43,6 +42,21 @@ void inputGets(void) {
   newLine();
 }
 
+void inputScanF(void) {
+  int num;
+
+  printf("SCANF FUNCTION EXAMPLE");
+  newLine();
+
+  // Ask input.
+  printf("Input: ");
+  scanf("%d", &num);
+
+  // Output the input.
+  printf("Output: %d", num);
+  newLine();
+}
+
 int main(void) {
   // Clear up the console.
   clearConsole();
@@ -53,6 +67,10 @@ int main(void) {
 
   // Example for gets() function.
   inputGets();
+  newLine();
+
+  // Example for scanf() function.
+  inputScanF();
   newLine();
 
   return 0;

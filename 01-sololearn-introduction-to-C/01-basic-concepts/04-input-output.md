@@ -18,3 +18,10 @@ gets()
     string
         - Stored in char array.
 ```
+
+> - Refer to `code-04.c` function `inputScanF()`.
+
+```plaintext
+scanf()
+    - Scans input that matches format specifiers.
+```
