@@ -117,5 +117,8 @@ int main(void) {
   outputPutChar();
   newLine();
 
+  // Example for puts() function.
+  outputPuts();
+  newLine();
   return 0;
 }
