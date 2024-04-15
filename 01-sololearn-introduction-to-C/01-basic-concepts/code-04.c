@@ -43,7 +43,7 @@ void inputGets(void) {
 }
 
 void inputScanF(void) {
-  int num;
+  char planet[100];
   char garbage[100];
 
   printf("INPUT SCANF FUNCTION");
@@ -51,10 +51,10 @@ void inputScanF(void) {
 
   // Ask input.
   printf("Input: ");
-  scanf("%d", &num);
+  scanf("%s", planet);
 
   // Output the input.
-  printf("Output: %d", num);
+  printf("Output: %s", planet);
   newLine();
 
   // Clean up the input buffer.
@@ -81,7 +81,21 @@ void outputPutChar(void) {
   fgets(garbage, 100, stdin);
 }
 
-void outputPuts(void) {}
+void outputPuts(void) {
+  char planet[100];
+
+  printf("OUTPUT PUTS FUNCTION");
+  newLine();
+
+  // Ask the input.
+  printf("Input: ");
+  fgets(planet, 100, stdin);
+
+  // Output the input.
+  printf("Output: ");
+  puts(planet);
+  newLine();
+}
 
 int main(void) {
   // Clear up the console.
