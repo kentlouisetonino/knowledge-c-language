@@ -97,6 +97,31 @@ void outputPuts(void) {
   newLine();
 }
 
+void formattedInput(void) {
+  int numInt;
+  int numGarbage;
+  char planet[100];
+
+  printf("FORMATTED INPUT");
+  newLine();
+
+  // Ask input for integers
+  // For this code try: 1234 planet
+  printf("Input for numInt and planet: ");
+  scanf("%2d", &numInt);
+  scanf("%d", &numGarbage);
+  scanf("%*f");
+  scanf("%s", planet);
+
+  // Output the input.
+  printf("Output numInt: %d", numInt);
+  newLine();
+  printf("Output numGarbage: %d", numGarbage);
+  newLine();
+  printf("Output planet: %s", planet);
+  newLine();
+}
+
 int main(void) {
   // Clear up the console.
   clearConsole();
@@ -119,6 +144,10 @@ int main(void) {
 
   // Example for puts() function.
   outputPuts();
+  newLine();
+
+  // Example for formatted inpput.
+  formattedInput();
   newLine();
   return 0;
 }

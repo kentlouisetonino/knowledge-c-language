@@ -74,6 +74,8 @@ scanf()
 ### Formatted Input
 #
 
+> - Refer to `code-04.c` function `formattedInput()`.
+
 ```plaintext
 scanf()
     - A function scans input according to format specifiers that
