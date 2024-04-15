@@ -35,7 +35,7 @@ void inputGets(void) {
 
   // Ask the input.
   printf("Input: ");
-  fgets(planet, 10, stdin);
+  fgets(planet, 100, stdin);
 
   // Output the input.
   printf("Output: %s", planet);
