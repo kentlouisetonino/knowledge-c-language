@@ -48,3 +48,10 @@ scanf()
 putchar()
     - A function that outputs a single character.
 ```
+
+> - Refer to `code-04.c` function `outputPuts()`.
+
+```plaintext
+puts()
+    - A function used to display output of string.
+```

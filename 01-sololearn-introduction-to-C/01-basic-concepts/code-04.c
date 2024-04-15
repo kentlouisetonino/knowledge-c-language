@@ -81,6 +81,8 @@ void outputPutChar(void) {
   fgets(garbage, 100, stdin);
 }
 
+void outputPuts(void) {}
+
 int main(void) {
   // Clear up the console.
   clearConsole();
