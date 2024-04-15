@@ -9,7 +9,7 @@ void inputGetChar(void) {
   char letter;
   char garbage[100];
 
-  printf("GETCHAR FUNCTION EXAMPLE");
+  printf("INPUT GETCHAR FUNCTION");
   newLine();
 
   // Ask the input.
@@ -30,7 +30,7 @@ void inputGetChar(void) {
 void inputGets(void) {
   char planet[100];
 
-  printf("GETS FUNCTION EXAMPLE");
+  printf("INPUTS GETS FUNCTION");
   newLine();
 
   // Ask the input.
@@ -44,8 +44,9 @@ void inputGets(void) {
 
 void inputScanF(void) {
   int num;
+  char garbage[100];
 
-  printf("SCANF FUNCTION EXAMPLE");
+  printf("INPUT SCANF FUNCTION");
   newLine();
 
   // Ask input.
@@ -55,6 +56,29 @@ void inputScanF(void) {
   // Output the input.
   printf("Output: %d", num);
   newLine();
+
+  // Clean up the input buffer.
+  fgets(garbage, 100, stdin);
+}
+
+void outputPutChar(void) {
+  char letter;
+  char garbage[100];
+
+  printf("OUTPUT PUTCHAR FUNCTION");
+  newLine();
+
+  // Ask the input.
+  printf("Input: ");
+  letter = getchar();
+
+  // Output the input.
+  printf("Output: ");
+  putchar(letter);
+  newLine();
+
+  // Clean up the input buffer.
+  fgets(garbage, 100, stdin);
 }
 
 int main(void) {
@@ -71,6 +95,10 @@ int main(void) {
 
   // Example for scanf() function.
   inputScanF();
+  newLine();
+
+  // Example for putchar() function.
+  outputPutChar();
   newLine();
 
   return 0;

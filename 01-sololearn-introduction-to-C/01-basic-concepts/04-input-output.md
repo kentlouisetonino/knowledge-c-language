@@ -33,3 +33,18 @@ scanf()
     - This is needed, because Scanf places an input value at a
       variable address.
 ```
+
+<br />
+<br />
+
+
+
+### Output
+#
+
+> - Refer to `code-04.c` function `outputPutChar()`.
+
+```plaintext
+putchar()
+    - A function that outputs a single character.
+```
