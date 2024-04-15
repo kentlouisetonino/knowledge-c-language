@@ -122,6 +122,13 @@ void formattedInput(void) {
   newLine();
 }
 
+void formattedOutput(void) {
+  printf("FORMATTED OUTPUT");
+  newLine();
+  printf("Number with decimal: %3.5f", 3.14444444444);
+  newLine();
+}
+
 int main(void) {
   // Clear up the console.
   clearConsole();
@@ -146,8 +153,13 @@ int main(void) {
   outputPuts();
   newLine();
 
-  // Example for formatted inpput.
+  // Example for formatted input.
   formattedInput();
   newLine();
+
+  // Example for formatted output.
+  formattedOutput();
+  newLine();
+
   return 0;
 }

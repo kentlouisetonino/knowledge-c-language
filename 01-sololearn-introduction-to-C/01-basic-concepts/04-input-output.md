@@ -96,3 +96,31 @@ Format Specifier
         - Conversion character converts the argument: d (decimal), c (character),
           s (string), f (float), x (hexadecimal).
 ```
+
+<br />
+<br />
+
+
+
+### Formatted Output
+#
+
+> - Refer to `code-04.c` function `formattedOutput()`.
+
+```plaintext
+printf()
+    - This function requires a format string which can include escape sequences
+      for outputting special characters and format specifiers that are replaced
+      by values.
+
+Format Specifiers
+
+    %[-][width].[precision]conversion_character
+
+        -                       : (Optional) Specifies left alignment of the data in the string.
+        width                   : (Optional) Minimum numbers of characters for data.
+        .                       : (Optional) Separates the width from the precision.
+                                : (Optional) precision gives the number of decimal places for
+                                  numeric data.
+        conversion_character    : Converst the argument based on the indicated type.
+```
