@@ -65,3 +65,32 @@ scanf()
 
     - scanf() stops reading as soon it encounters a space.
 ```
+
+<br />
+<br />
+
+
+
+### Formatted Input
+#
+
+```plaintext
+scanf()
+    - A function scans input according to format specifiers that
+      convert input as necessary.
+
+    &
+        - Must be used to access the variable address.
+        - String will not use this, because string name acts as a pointer.
+
+Format Specifier
+    - Format specifiers begin with a percent sign and used to assign the values.
+    - Blanks, tabs, and newlines are ignored.
+
+    %[*][max_width]conversion_character
+        - (Optional) The asterisk will skip the input field.
+        - (Optional) The max_width gives the maximum number of characters to
+          assign to input field.
+        - Conversion character converts the argument: d (decimal), c (character),
+          s (string), f (float), x (hexadecimal).
+```
