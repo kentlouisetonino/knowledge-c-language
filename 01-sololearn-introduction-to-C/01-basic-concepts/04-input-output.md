@@ -55,3 +55,13 @@ putchar()
 puts()
     - A function used to display output of string.
 ```
+
+```plaintext
+scanf()
+    - Scans input that matches format specifier.
+
+      int a, b;
+      scanf("%d %d", &a, &b);
+
+    - scanf() stops reading as soon it encounters a space.
+```
