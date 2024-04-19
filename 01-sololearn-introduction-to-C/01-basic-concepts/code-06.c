@@ -7,7 +7,7 @@ void newLine(void) { printf("\n"); }
 
 void division(void) {
   int num1 = 10;
-  int num2 = 20;
+  int num2 = 23;
   float float1 = 30.5000;
 
   printf("DIVISION / OPERATION");
@@ -19,6 +19,17 @@ void division(void) {
   newLine();
 }
 
+void modulusDivision(void) {
+  int num1 = 10;
+  int num2 = 23;
+  float float1 = 30.5000;
+
+  printf("DIVISION %% OPERATOR");
+  newLine();
+  printf("Output (int-int): %d", num2 % num1);
+  newLine();
+}
+
 int main(void) {
   // Cleanup terminal first.
   clearScreen();
@@ -26,6 +37,10 @@ int main(void) {
 
   // Division using / operator.
   division();
+  newLine();
+
+  // Division using % operator.
+  modulusDivision();
 
   // Exit.
   newLine();
