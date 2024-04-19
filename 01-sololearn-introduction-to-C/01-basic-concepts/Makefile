@@ -9,3 +9,7 @@ code03:
 code04:
 	gcc -o code-04 code-04.c
 	./code-04
+
+code06:
+	gcc -o code-06 code-06.c
+	./code-06
