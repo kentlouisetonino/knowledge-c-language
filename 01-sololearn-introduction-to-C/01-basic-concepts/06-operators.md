@@ -3,7 +3,7 @@
 
 - C supports the following operators.
 
-```bash
+```plaintext
 + (addition)
 - (subtraction)
 * (multiplication)
