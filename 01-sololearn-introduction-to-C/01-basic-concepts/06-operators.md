@@ -21,6 +21,7 @@
       in an integer.
     - When one or both operands are real numbers (float or double), the
       result a real number.
+    - If one of the variable is type "float", use the "%f" operator.
 
 % Operator
     - Returns only the remainder of integer division.
