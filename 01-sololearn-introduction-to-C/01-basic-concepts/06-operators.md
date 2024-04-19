@@ -1,7 +1,7 @@
 ### Arithmetic Operators
 #
 
-- C supports the following operators.
+> - C supports the following operators.
 
 ```plaintext
 + (addition)
@@ -11,7 +11,7 @@
 % (modulus division)
 ```
 
-- C has two division operators: `/` and `%`.
+> - C has two division operators: `/` and `%`.
 
 ```plaintext
 Division Operator (/)
