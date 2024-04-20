@@ -30,6 +30,25 @@ void modulusDivision(void) {
   newLine();
 }
 
+void operatorPrecedence(void) {
+  int a = 6;
+  int b = 4;
+  int c = 2;
+  int result;
+
+  printf("OPERATOR PRECENDENCE");
+  newLine();
+  result = a - b + c;
+  printf("Output: %d", result);
+  newLine();
+  result = a + b / c;
+  printf("Output: %d", result);
+  newLine();
+  result = (a + b) / c;
+  printf("Output: %d", result);
+  newLine();
+}
+
 int main(void) {
   // Cleanup terminal first.
   clearScreen();
@@ -41,6 +60,11 @@ int main(void) {
 
   // Division using % operator.
   modulusDivision();
+  newLine();
+
+  // Operator precedence example.
+  operatorPrecedence();
+  newLine();
 
   // Exit.
   newLine();
