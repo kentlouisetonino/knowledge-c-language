@@ -50,3 +50,15 @@
     - It can change the order of operations.
     - Indicates which operations are to be performed first.
 ```
+
+<br />
+<br />
+
+
+
+### Type Conversion
+#
+
+> - `Type Conversion` is the process when operands contains
+    different data types, they are automatically converted
+    as necessary.
