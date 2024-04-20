@@ -47,5 +47,6 @@
       and then + and -, also in order from left to right.
 
 ()
-    - It can change the order
+    - It can change the order of operations.
+    - Indicates which operations are to be performed first.
 ```
