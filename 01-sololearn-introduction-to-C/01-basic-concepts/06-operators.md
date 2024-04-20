@@ -27,3 +27,25 @@
     - Returns only the remainder of integer division.
     - It cannot be performed on floats and doubles.
 ```
+
+<br />
+<br />
+
+
+
+### Operator Precedence
+#
+
+> - C evaluates a numeric expression based on `operator precedence`.
+
+```plaintext
++ and -
+    - Are equal in precedence, as are *, /, and %.
+
+*, /, and %
+    - Are performed first in order from left to right
+      and then + and -, also in order from left to right.
+
+()
+    - It can change the order
+```
