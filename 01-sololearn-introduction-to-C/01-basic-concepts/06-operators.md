@@ -79,3 +79,15 @@
 > - Explicit type conversion, even when the compiler may do
     automatic type conversion, is considered good programming
     style.
+
+<br />
+<br />
+
+
+
+### Assignment Operators
+#
+
+> - An `assignment statement` evaluates the expression on the
+    right side of the equal sign first and then assigns that
+    value to the variable on the left side of the `=`.
