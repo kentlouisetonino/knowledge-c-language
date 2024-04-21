@@ -49,6 +49,18 @@ void operatorPrecedence(void) {
   newLine();
 }
 
+void typeConversion(void) {
+  float numFloat = 6.5000;
+  int numInt = 2;
+  float newPrice;
+
+  printf("TYPE CONVERSION");
+  newLine();
+  newPrice = numInt + numFloat;
+  printf("OUTPUT: %f", newPrice);
+  newLine();
+}
+
 int main(void) {
   // Cleanup terminal first.
   clearScreen();
@@ -64,6 +76,10 @@ int main(void) {
 
   // Operator precedence example.
   operatorPrecedence();
+  newLine();
+
+  // Type conversion example.
+  typeConversion();
   newLine();
 
   // Exit.
