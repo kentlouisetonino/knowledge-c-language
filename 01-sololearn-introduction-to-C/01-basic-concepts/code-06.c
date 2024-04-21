@@ -57,7 +57,10 @@ void typeConversion(void) {
   printf("TYPE CONVERSION");
   newLine();
   newPrice = numInt + numFloat;
-  printf("OUTPUT: %f", newPrice);
+  printf("OUTPUT (Implicit): %f", newPrice);
+  newLine();
+  newPrice = (float)numInt + numFloat;
+  printf("Output (Explicit): %f", newPrice);
   newLine();
 }
 
