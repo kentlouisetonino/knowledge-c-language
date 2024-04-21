@@ -38,7 +38,7 @@
 ### Operator Precedence
 #
 
-> - Refer to `code-06.c` function `operatorPrecendence()`.
+> - Refer to `code-06.c` function `operatorPrecedence()`.
 
 > - C evaluates a numeric expression based on `operator precedence`.
 
@@ -63,6 +63,8 @@
 ### Type Conversion
 #
 
+> - Refer to `code-06.c` function `typeConversion()`.
+
 > - `Type Conversion` is the process when operands contains
     different data types, they are automatically converted
     as necessary.
@@ -70,3 +72,10 @@
 > - For example, an operation involving both floats and ints,
     the compiler will convert the `int` values to `float`
     values.
+
+> - When you want to force the result expression to a different
+    type you can perform explicit type conversion by `type casting`.
+
+> - Explicit type conversion, even when the compiler may do
+    automatic type conversion, is considered good programming
+    style.
