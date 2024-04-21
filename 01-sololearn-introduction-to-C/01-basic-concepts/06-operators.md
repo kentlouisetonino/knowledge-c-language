@@ -13,6 +13,8 @@
 
 > - C has two division operators: `/` and `%`.
 
+> - Refer to `code-06.c` function `division()` and `modulusDivision()`.
+
 ```plaintext
 / Operator
     - Performs differently depending on the data types of the operands.
@@ -35,6 +37,8 @@
 
 ### Operator Precedence
 #
+
+> - Refer to `code-06.c` function `operatorPrecendence()`.
 
 > - C evaluates a numeric expression based on `operator precedence`.
 
@@ -62,3 +66,7 @@
 > - `Type Conversion` is the process when operands contains
     different data types, they are automatically converted
     as necessary.
+
+> - For example, an operation involving both floats and ints,
+    the compiler will convert the `int` values to `float`
+    values.
