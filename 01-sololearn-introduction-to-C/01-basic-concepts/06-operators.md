@@ -91,3 +91,12 @@
 > - An `assignment statement` evaluates the expression on the
     right side of the equal sign first and then assigns that
     value to the variable on the left side of the `=`.
+
+```c
+int x = 3;
+x = x + 1;
+
+||
+
+x += 1;
+```

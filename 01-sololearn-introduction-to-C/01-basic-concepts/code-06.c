@@ -64,6 +64,28 @@ void typeConversion(void) {
   newLine();
 }
 
+void assignmentOperator(void) {
+  int x = 2;
+
+  // 3
+  x += 1;
+  // 2
+  x -= 1;
+  // 6
+  x *= 3;
+  // 3
+  x /= 2;
+  // 1
+  x %= 2;
+  // 7
+  x += 3 * 2;
+
+  printf("ASSIGNMENT OPERATORS");
+  newLine();
+  printf("Output: %d", x);
+  newLine();
+}
+
 int main(void) {
   // Cleanup terminal first.
   clearScreen();
@@ -83,6 +105,10 @@ int main(void) {
 
   // Type conversion example.
   typeConversion();
+  newLine();
+
+  // Assignment operator example.
+  assignmentOperator();
   newLine();
 
   // Exit.
