@@ -100,3 +100,34 @@ x = x + 1;
 
 x += 1;
 ```
+
+<br />
+<br />
+
+
+
+### Increment & Decrement
+#
+
+```c
+// Decrement z by 1.
+z--;
+
+// Increment y by 1.
+```
+
+> - `Prefix` means before the variable name.
+
+> - `Postfix` means after the variable name.
+
+```c
+int x;
+int y = 3;
+int z = 3;
+
+// Assign 3 to x, and decrement z to 2.
+x = z--;
+
+// Increment y to 4, assign 4 to x.
+x = ++y;
+```
