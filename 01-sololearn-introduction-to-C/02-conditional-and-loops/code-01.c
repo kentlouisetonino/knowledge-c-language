@@ -36,6 +36,34 @@ void ifStatement(void) {
   newLine();
 }
 
+void ifElseStatement(void) {
+  int score;
+
+  // Description.
+  newTab();
+  printf("IF-ELSE STATEMENT EXAMPLE");
+  newLine();
+
+  // Ask the input.
+  newTab();
+  printf("Score: ");
+  scanf("%d", &score);
+
+  // Display the output.
+  if (score < 75) {
+    newTab();
+    printf("Status: Your Fucking Dumb!");
+    newLine();
+  } else {
+    newTab();
+    printf("Status: Passed");
+    newLine();
+  }
+
+  // Exit.
+  newLine();
+}
+
 int main(void) {
   // Cleanup the terminal.
   clearScreen();
@@ -43,6 +71,10 @@ int main(void) {
 
   // If statement example.
   ifStatement();
+  newLine();
+
+  // If-else statement example.
+  ifElseStatement();
   newLine();
 
   return 0;

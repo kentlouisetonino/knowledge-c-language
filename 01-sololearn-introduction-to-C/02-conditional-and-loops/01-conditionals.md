@@ -37,3 +37,14 @@ if (expression) {
 ==  : Equal to.
 !=  : Not equal to.
 ```
+
+<br />
+<br />.
+
+
+
+### The if-else Statement
+#
+
+> - The `if` statement can include an optional `else` clause
+    that executes statements when an expression is `false`.
