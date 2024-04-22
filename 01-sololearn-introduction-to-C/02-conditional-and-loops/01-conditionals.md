@@ -17,3 +17,23 @@ if (expression) {
     statements;
 }
 ```
+
+<br />
+<br />
+
+
+
+### Relational Operators
+#
+
+> - Below are the six relational operators that can be used
+    to form a Boolean expression.
+
+```plaintext
+<   : Less than.
+<=  : Less than or equal to.
+>   : Greater than.
+>=  : Greater than or equal to.
+==  : Equal to.
+!=  : Not equal to.
+```
