@@ -10,5 +10,10 @@
 
 > - `if` statement is also known as a `decision structure`.
 
+> - Refer to `code-01.c` function `ifStatement()`.
+
 ```c
+if (expression) {
+    statements;
+}
 ```
