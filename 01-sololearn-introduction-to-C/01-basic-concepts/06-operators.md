@@ -114,6 +114,7 @@ x += 1;
 z--;
 
 // Increment y by 1.
+y++;
 ```
 
 > - `Prefix` means before the variable name.
