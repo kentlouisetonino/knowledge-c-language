@@ -46,5 +46,7 @@ if (expression) {
 ### The if-else Statement
 #
 
+> - Refer to `code-01.c` function `ifElseStatement()`.
+
 > - The `if` statement can include an optional `else` clause
     that executes statements when an expression is `false`.

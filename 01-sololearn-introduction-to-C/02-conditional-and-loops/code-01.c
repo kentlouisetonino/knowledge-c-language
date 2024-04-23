@@ -64,6 +64,8 @@ void ifElseStatement(void) {
   newLine();
 }
 
+void conditionalExpression(void) {}
+
 int main(void) {
   // Cleanup the terminal.
   clearScreen();
