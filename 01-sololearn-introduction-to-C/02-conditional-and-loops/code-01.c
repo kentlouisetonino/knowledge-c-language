@@ -38,6 +38,7 @@ void ifStatement(void) {
 
 void ifElseStatement(void) {
   int score;
+  char garbage[100];
 
   // Description.
   newTab();
@@ -60,11 +61,35 @@ void ifElseStatement(void) {
     newLine();
   }
 
+  // Cleanup the garbage.
+  fgets(garbage, 100, stdin);
+
   // Exit.
   newLine();
 }
 
-void conditionalExpression(void) {}
+void conditionalExpression(void) {
+  int answer;
+  char *output;
+
+  // Title of the example.
+  newTab();
+  printf("CONDITIONAL EXPRESSION EXAMPLE");
+  newLine();
+
+  // Ask the input.
+  newTab();
+  printf("Does human exist? [1 = Yes, 0 = No]: ");
+  scanf("%d", &answer);
+
+  // Computation.
+  output = (answer == 1) ? "Where Doomed!" : "Earth is Safe!";
+
+  // Show the output.
+  newTab();
+  printf("Evaluation: %s", output);
+  newLine();
+}
 
 int main(void) {
   // Cleanup the terminal.
@@ -77,6 +102,10 @@ int main(void) {
 
   // If-else statement example.
   ifElseStatement();
+  newLine();
+
+  // Conditional expression example.
+  conditionalExpression();
   newLine();
 
   return 0;

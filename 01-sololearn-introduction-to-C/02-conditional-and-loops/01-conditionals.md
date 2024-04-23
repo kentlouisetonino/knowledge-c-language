@@ -50,3 +50,16 @@ if (expression) {
 
 > - The `if` statement can include an optional `else` clause
     that executes statements when an expression is `false`.
+
+<br />
+<br />
+
+
+
+### Conditional Expressions
+#
+
+> - Refer to `code-01` function `conditionalExpression()`.
+
+> - The `?:` operator can have only one statement associated
+    with the `if` and `else`.
