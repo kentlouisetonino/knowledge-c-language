@@ -1,5 +1,6 @@
 ### Nested If Statements
 #
 
-> - An `if` statement can include another `if` statement.
+> - Refer to example `code-02.c` function `nestedIfStatement()`.
 
+> - An `if` statement can include another `if` statement.
