@@ -7,7 +7,7 @@ void newLine(void) { printf("\n"); }
 
 void newTab(void) { printf("\t"); }
 
-void nestedIfStatements(void) {
+void nestedIfStatement(void) {
   int profit = 1400;
   int clients = 18;
   int bonus;
@@ -30,13 +30,44 @@ void nestedIfStatements(void) {
   newLine();
 }
 
+void elseIfStatement(void) {
+  int score = 89;
+
+  // Description.
+  newTab();
+  printf("ELSE-IF STATEMENT EXAMPLE");
+  newLine();
+
+  if (score >= 90) {
+    newTab();
+    printf("Score: %s", "Top 10% \n");
+    newLine();
+  } else if (score >= 80) {
+    newTab();
+    printf("Score: %s", "Top 20% \n");
+    newLine();
+  } else if (score > 75) {
+    newTab();
+    printf("Score: %s", "You passed.\n");
+    newLine();
+  } else {
+    newTab();
+    printf("Score: %s", "You did not pass.\n");
+    newLine();
+  }
+}
+
 int main() {
   // Cleanup terminal first.
   clearScreen();
   newLine();
 
   // Nested if-statement example.
-  nestedIfStatements();
+  nestedIfStatement();
+  newLine();
+
+  // An else-if statement example.
+  elseIfStatement();
   newLine();
 
   return 0;
