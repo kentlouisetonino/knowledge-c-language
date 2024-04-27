@@ -12,4 +12,4 @@ code03:
 
 code04:
 	gcc -o code-04 code-04.c
-	./code-4
+	./code-04
