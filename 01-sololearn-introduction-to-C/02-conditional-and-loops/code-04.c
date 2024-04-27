@@ -69,6 +69,30 @@ void orOperator(void) {
   if (strcmp(numeral, "ii") == 0 || strcmp(numeral, "II") == 0) {
     number = 2;
   }
+  if (strcmp(numeral, "iii") == 0 || strcmp(numeral, "III") == 0) {
+    number = 3;
+  }
+  if (strcmp(numeral, "iv") == 0 || strcmp(numeral, "IV") == 0) {
+    number = 4;
+  }
+  if (strcmp(numeral, "v") == 0 || strcmp(numeral, "V") == 0) {
+    number = 5;
+  }
+  if (strcmp(numeral, "vi") == 0 || strcmp(numeral, "VI") == 0) {
+    number = 6;
+  }
+  if (strcmp(numeral, "vii") == 0 || strcmp(numeral, "VII") == 0) {
+    number = 7;
+  }
+  if (strcmp(numeral, "viii") == 0 || strcmp(numeral, "VIII") == 0) {
+    number = 8;
+  }
+  if (strcmp(numeral, "ix") == 0 || strcmp(numeral, "IX") == 0) {
+    number = 9;
+  }
+  if (strcmp(numeral, "x") == 0 || strcmp(numeral, "X") == 0) {
+    number = 10;
+  }
 
   // Display the equivalent in number.
   newTab();
