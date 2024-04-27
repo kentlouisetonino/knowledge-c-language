@@ -18,3 +18,5 @@ switch (expression) {
         statements;
 }
 ```
+
+> - Note: `switch` statement will only evaluate integral data type.
