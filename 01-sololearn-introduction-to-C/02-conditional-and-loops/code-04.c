@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void clearTerminal(void) { system("clear"); }
 
@@ -56,15 +57,15 @@ void orOperator(void) {
 
   // Ask the input.
   newTab();
-  printf("Enter a number: ");
-  fgets(numeral, 100, stdin);
+  printf("Enter a numeral: ");
+  scanf("%s", numeral);
 
   // Process the input.
   if (*numeral == 'i' || *numeral == 'I') {
     number = 1;
   }
-  if (*numeral == 'ii' || *numeral == 'II') {
-    number = 1;
+  if (strcmp(numeral, "ii") == 0 || strcmp(numeral, "II") == 0) {
+    number = 2;
   }
 
   // Display the equivalent in number.
