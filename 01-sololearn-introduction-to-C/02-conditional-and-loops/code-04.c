@@ -100,6 +100,33 @@ void orOperator(void) {
   newLine();
 }
 
+void notOperator(void) {
+  char answer[100];
+  char *evaluation;
+
+  // Function description.
+  newTab();
+  printf("LOGICAL ! OPERATOR EXAMPLE");
+  newLine();
+
+  // Ask the input.
+  newTab();
+  printf("Who discovered general relativity?: ");
+  scanf("%s", answer);
+
+  // Check the answer.
+  if (!(strcmp(answer, "einstein") == 0 || strcmp(answer, "Einstein") == 0)) {
+    evaluation = "Your Fucking Dumb!";
+  } else {
+    evaluation = "Correct!";
+  }
+
+  // Output the result.
+  newTab();
+  printf("Evaluation: %s", evaluation);
+  newLine();
+}
+
 int main(void) {
   // Clean up the terminal first..
   clearTerminal();
@@ -111,6 +138,10 @@ int main(void) {
 
   // Logical || operator exmaple.
   orOperator();
+  newLine();
+
+  // Logical ! operator example.
+  notOperator();
   newLine();
 
   return 0;
