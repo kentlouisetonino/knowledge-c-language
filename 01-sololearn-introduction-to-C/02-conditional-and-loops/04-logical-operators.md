@@ -126,3 +126,33 @@ void orOperator(void) {
 #
 
 > - The logical `NOT` operator `!` returns the reverse of its value.
+
+```c
+// Refer to code-04.c file.
+void notOperator(void) {
+  char answer[100];
+  char *evaluation;
+
+  // Function description.
+  newTab();
+  printf("LOGICAL ! OPERATOR EXAMPLE");
+  newLine();
+
+  // Ask the input.
+  newTab();
+  printf("Who discovered general relativity?: ");
+  scanf("%s", answer);
+
+  // Check the answer.
+  if (!(strcmp(answer, "einstein") == 0 || strcmp(answer, "Einstein") == 0)) {
+    evaluation = "Your Fucking Dumb!";
+  } else {
+    evaluation = "Correct!";
+  }
+
+  // Output the result.
+  newTab();
+  printf("Evaluation: %s", evaluation);
+  newLine();
+}
+```
