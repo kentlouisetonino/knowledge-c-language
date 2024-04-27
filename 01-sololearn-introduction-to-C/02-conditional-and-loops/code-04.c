@@ -11,6 +11,7 @@ void andOperator(void) {
   int num1;
   int num2;
   char *result;
+  char garbage[100];
 
   // Description of the function.
   newTab();
@@ -25,6 +26,9 @@ void andOperator(void) {
   printf("Second Number: ");
   scanf("%d", &num2);
 
+  // Collect the garbage input.
+  fgets(garbage, 100, stdin);
+
   // Check if both numbers are divisible by 2.
   if (((num1 % 2) == 0) && ((num2 % 2) == 0)) {
     result = "true";
@@ -38,6 +42,37 @@ void andOperator(void) {
   newLine();
 }
 
+void orOperator(void) {
+  int number = 0;
+  char numeral[100];
+
+  // Description of the function.
+  newTab();
+  printf("LOGICAL || OPERATOR EXAMPLE");
+  newLine();
+  newTab();
+  printf("Instruction: Numeral should be based only on 1-10 value.");
+  newLine();
+
+  // Ask the input.
+  newTab();
+  printf("Enter a number: ");
+  fgets(numeral, 100, stdin);
+
+  // Process the input.
+  if (*numeral == 'i' || *numeral == 'I') {
+    number = 1;
+  }
+  if (*numeral == 'ii' || *numeral == 'II') {
+    number = 1;
+  }
+
+  // Display the equivalent in number.
+  newTab();
+  printf("Equivalent: %d", number);
+  newLine();
+}
+
 int main(void) {
   // Clean up the terminal first..
   clearTerminal();
@@ -45,6 +80,10 @@ int main(void) {
 
   // Logical && operator example.
   andOperator();
+  newLine();
+
+  // Logical || operator exmaple.
+  orOperator();
   newLine();
 
   return 0;

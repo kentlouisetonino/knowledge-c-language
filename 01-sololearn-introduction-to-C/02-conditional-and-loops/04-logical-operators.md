@@ -43,3 +43,14 @@ void andOperator(void) {
   newLine();
 }
 ```
+
+<br />
+<br />
+
+
+
+### The || Operator
+#
+
+> - The logical `OR` operator `||` returns when any one expression
+    or both expressions are true.
