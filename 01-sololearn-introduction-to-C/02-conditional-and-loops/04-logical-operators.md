@@ -116,3 +116,13 @@ void orOperator(void) {
 ```
 
 > - Take note, `&&` has higher precedence than `||` and will be evaluated first.
+
+<br />
+<br />
+
+
+
+### The ! Operator
+#
+
+> - The logical `NOT` operator `!` returns the reverse of its value.
