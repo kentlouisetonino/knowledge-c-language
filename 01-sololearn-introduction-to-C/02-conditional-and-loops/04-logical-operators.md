@@ -114,3 +114,5 @@ void orOperator(void) {
   newLine();
 }
 ```
+
+> - Take note, `&&` has higher precedence than `||` and will be evaluated first.
