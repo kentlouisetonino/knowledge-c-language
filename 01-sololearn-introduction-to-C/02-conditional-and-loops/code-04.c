@@ -61,6 +61,8 @@ void orOperator(void) {
   scanf("%s", numeral);
 
   // Process the input.
+  // strcmp(): Used to compare string.
+  // https://github.com/bminor/glibc/blob/master/string/strcmp.c
   if (*numeral == 'i' || *numeral == 'I') {
     number = 1;
   }
