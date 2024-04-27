@@ -6,6 +6,10 @@
 
 > - An `alternative` of `if-else-if` statement.
 
+> - The optional `default` case is executed when no other matches are made.
+
+> - A `break` statement to end the switch after match is made.
+
 ```c
 switch (expression) {
     case val1:
