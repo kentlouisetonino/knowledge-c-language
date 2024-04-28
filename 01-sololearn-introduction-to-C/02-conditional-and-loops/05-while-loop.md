@@ -48,4 +48,11 @@ void whileLoop(void) {
 ### The do-while Loop
 #
 
-> -
+> - The `do-while` loop executes the loop statements before evaluating
+    the expression to determine if the loop should be repeated.
+
+```c
+do {
+    statements;
+} while (expression);
+```
