@@ -17,3 +17,7 @@ code04:
 code05:
 	gcc -o code-05 code-05.c
 	./code-05
+
+code06:
+	gcc -o code-06 code-06.c
+	./code-06
