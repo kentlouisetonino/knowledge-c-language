@@ -45,3 +45,26 @@ void forLoop(void) {
   }
 }
 ```
+
+> - The `for` loop can contain multiple expressions separated by commas
+    in each part.
+
+```c
+for (x = 0, y = num; x < y; i++, y--) {
+    statements;
+}
+```
+
+> - Also, you can skip the `initValue`, `condition` and/or increment.
+
+```c
+int i = 0;
+int max = 10;
+
+for (; i < max; i++ ) {
+    printf("%d", i);
+}
+```
+
+> - Loops can also be nested. For each iteration of the outer loop the inner
+    loop repeats its entire cycle.
