@@ -68,3 +68,8 @@ for (; i < max; i++ ) {
 
 > - Loops can also be nested. For each iteration of the outer loop the inner
     loop repeats its entire cycle.
+
+> - A `break` in an inner loop exits that loop and execution continues with
+    the outer loop.
+
+> - A `continue` statement works similarly in nested loops.
