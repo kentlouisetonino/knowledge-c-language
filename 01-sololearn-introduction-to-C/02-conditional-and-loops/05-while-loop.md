@@ -83,3 +83,17 @@ void doWhile(void) {
   } while (count >= 1);
 }
 ```
+
+<br />
+<br />
+
+
+
+### Break and continue
+#
+
+> - The `break` statement was introduced for use in the `switch` statement and
+    immediately use when exiting a loop.
+
+> - The `continue` statement is used when you want to remain in the loop, but
+    skip ahead to the next iteration.
