@@ -19,3 +19,29 @@ for (initValue; condition; increment) {
 
 > - The `increment` increases (or decreases) the counter by a set
     value.
+
+```c
+// Refer to code-06.c file.
+void forLoop(void) {
+  int count;
+  int maximumCount;
+
+  // Function description.
+  newTab();
+  printf("FOR LOOP EXAMPLE");
+  newLine();
+
+  // Ask for the input.
+  newTab();
+  printf("Enter a maximum number: ");
+  scanf("%d", &maximumCount);
+
+  // Loop through and display the count.
+  // Count incrementally.
+  for (count = 1; count <= maximumCount; count++) {
+    newTab();
+    printf("Count: %d", count);
+    newLine();
+  }
+}
+```
