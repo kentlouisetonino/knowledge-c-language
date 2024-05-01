@@ -56,3 +56,30 @@ do {
     statements;
 } while (expression);
 ```
+
+```c
+// Refer to code05.c file.
+void doWhile(void) {
+  int count = 1;
+  int maximumLoopIteration;
+
+  // Function description.
+  // Count decrementally.
+  newTab();
+  printf("DO-WHILE LOOP EXAMPLE");
+  newLine();
+
+  // Ask the input.
+  newTab();
+  printf("Enter a maximum loop iteration: ");
+  scanf("%d", &count);
+
+  // Loop through and output.
+  do {
+    newTab();
+    printf("Count: %d", count);
+    newLine();
+    count--;
+  } while (count >= 1);
+}
+```
