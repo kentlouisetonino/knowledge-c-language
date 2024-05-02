@@ -126,3 +126,5 @@ int void(void) {
     and can be accessed every time the function is re-entered.
 
 > - A static variable is initialized when declared and requires the prefix `static`.
+
+> - Refer to the `code-01.c` file function `count()`.
