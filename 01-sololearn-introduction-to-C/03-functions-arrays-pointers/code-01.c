@@ -8,6 +8,7 @@ void clear_terminal(void);
 int square(int num);
 int sum(int x, int y);
 
+// Bad function approach.
 void count(void) {
   static int num = 1;
 
