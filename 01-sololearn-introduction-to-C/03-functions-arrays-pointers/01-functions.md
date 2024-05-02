@@ -110,3 +110,13 @@ int void(void) {
     return 0;
 }
 ```
+
+<br />
+<br />
+
+
+
+### Static Variables
+#
+
+> -
