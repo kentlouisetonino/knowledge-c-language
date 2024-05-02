@@ -62,3 +62,18 @@ int square(int num) { return num * num; };
 
 > - The values passed to these parameters are the arguments, sometimes
     called the `actual parameters`.
+
+```c
+// Refer to code-01.c file.
+
+// Function declaration.
+int sum(int x, int y);
+
+int main(void) {
+  printf("Sum of 10 and 5: %d", sum(10, 5));
+  return 0;
+}
+
+// Function definition.
+int sum(int x, int y) { return x + y; };
+```
