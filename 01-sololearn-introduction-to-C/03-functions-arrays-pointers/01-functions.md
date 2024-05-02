@@ -8,3 +8,7 @@ Function
     - Makes a program easier to test.
     - Can be modified without changing the calling program.
 ```
+
+```c
+return_type function_name(parameters);
+```
