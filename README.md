@@ -21,6 +21,7 @@ gcc -o code code.c
 
 ```c
 // For automating the compilation and executaion.
+// Create a Makefile file and put the code below.
 code:
     gcc -o code code.c
     ./code
