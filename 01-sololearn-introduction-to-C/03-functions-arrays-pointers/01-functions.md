@@ -18,3 +18,19 @@ return_type function_name(parameters);
 
 > - The last step is actually `defining` the function and it appears
     after the `main()` function.
+
+```c
+// Refer to code-01.c file.
+
+// Square function declaration.
+int square(int num);
+
+int main(void) {
+  printf("Square Root of 5: %d", square(5));
+
+  return 0;
+}
+
+// Square function definition.
+int square(int num) { return num * num; };
+```
