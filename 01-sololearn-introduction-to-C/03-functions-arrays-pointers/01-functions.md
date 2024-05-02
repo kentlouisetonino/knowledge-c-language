@@ -12,3 +12,9 @@ Function
 ```c
 return_type function_name(parameters);
 ```
+
+> - When the parameters types and names are included in a
+    declaration, the declaration is called a `function prototype`.
+
+> - The last step is actually `defining` the function and it appears
+    after the `main()` function.
