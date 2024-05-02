@@ -119,4 +119,10 @@ int void(void) {
 ### Static Variables
 #
 
-> -
+> - `Static` variables have a local scope but are not destroyed when a function
+    is exited.
+
+> - Therefore, a static variable retains its value for the life of the program
+    and can be accessed every time the function is re-entered.
+
+> - A static variable is initialized when declared and requires the prefix `static`.
