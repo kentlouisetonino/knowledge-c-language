@@ -34,3 +34,31 @@ int main(void) {
 // Square function definition.
 int square(int num) { return num * num; };
 ```
+
+<br />
+<br />
+
+
+
+### Function Parameters
+#
+
+> - A function `parameters` are used to receive values required by the
+    function.
+
+> - Values are passed to these parameters as arguments through the
+    function call.
+
+> - By default, `arguments` are passed by value, which means that a
+    copy of data is given to the parameters of the called function.
+
+> - The actual variable isn't passed into the function, so it won't
+    change.
+
+> - Arguments passed to a function are matched to parameters by
+    position.
+
+> - The parameters in a function declaration are the `formal parameters`.
+
+> - The values passed to these parameters are the arguments, sometimes
+    called the `actual parameters`.
