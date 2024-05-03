@@ -9,8 +9,10 @@ void new_tab(void) { printf("\t"); }
 
 int recursiveFunctionFactorial(int num) {
   if (num == 1) {
+    // Base case.
     return 1;
   } else {
+    // Recursive function.
     return num * recursiveFunctionFactorial(num - 1);
   }
 }
