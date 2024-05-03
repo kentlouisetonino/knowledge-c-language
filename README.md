@@ -11,21 +11,14 @@
 ### Tools
 #
 
-```c
-// For compiling the C program and generating an executable file.
-gcc -o code code.c
+```bash
+// GNU GCC Compiler.
+// Link: https://gcc.gnu.org/
+// A toolchain that compiles code and prepares executable file.
+gcc
 
-// Run the program manually.
-./code
-```
-
-```c
-// For automating the compilation and executaion.
-// Create a Makefile file and put the code below.
-code:
-    gcc -o code code.c
-    ./code
-
-// Run the program using make.
-make code
+// GNU Make
+// Link: https://www.gnu.org/software/make/manual/make.html
+// Helps automate file compilation and execution.
+make
 ```
