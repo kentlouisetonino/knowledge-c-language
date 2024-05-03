@@ -30,3 +30,13 @@ int prices3[5] = { 11, 10 };
 > - The index of an array is also called as `subscript`.
 
 > - Refer to file `code-03.c` function `accessing_array_elements`.
+
+<br />
+<br />
+
+
+
+### Using Loops with Arrays
+#
+
+> - `Traversing the array` is often implemented with for loop.

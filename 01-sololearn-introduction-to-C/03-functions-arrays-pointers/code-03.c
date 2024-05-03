@@ -26,6 +26,26 @@ void accessing_array_elements(void) {
   ;
 }
 
+void loops_with_array(void) {
+  float array[5] = {1.5, 1.1, 11.3, 12.5, 3.1};
+  float total = 0;
+
+  // Function description.
+  new_tab();
+  printf("LOOPS WITH ARRAY EXAMPLE");
+  new_line();
+
+  // Compute the total.
+  for (int num = 0; num < 5; num++) {
+    total += array[num];
+  }
+
+  // Display the sum.
+  new_tab();
+  printf("Total: %1.2f", total);
+  new_line();
+}
+
 int main(void) {
   // Cleanup terminal.
   clear_terminal();
@@ -33,6 +53,10 @@ int main(void) {
 
   // Accessing array elements example.
   accessing_array_elements();
+  new_line();
+
+  // Loops with array.
+  loops_with_array();
   new_line();
 
   return 0;
