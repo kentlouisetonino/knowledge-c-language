@@ -26,3 +26,7 @@ int prices3[5] = { 11, 10 };
 > - `Elements` are the contents of array.
 
 > - Every `element` is accessible by index number which starts at 0.
+
+> - The index of an array is also called as `subscript`.
+
+> - Refer to file `code-03.c` function `accessing_array_elements`.
