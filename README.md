@@ -1,7 +1,7 @@
 ### Description
 #
 
-> - All cool things in C language.
+> - All things I learned related to C language.
 
 <br />
 <br />
