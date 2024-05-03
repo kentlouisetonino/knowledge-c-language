@@ -5,3 +5,7 @@ code01:
 code02:
 	gcc -o code-02 code-02.c
 	./code-02
+
+code03:
+	gcc -o code-03 code-03.c
+	./code-03

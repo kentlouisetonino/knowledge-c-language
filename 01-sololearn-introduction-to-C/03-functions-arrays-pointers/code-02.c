@@ -7,17 +7,17 @@ void new_line(void) { printf("\n"); }
 
 void new_tab(void) { printf("\t"); }
 
-int recursiveFunctionFactorial(int num) {
+int recursive_function_factorial(int num) {
   if (num == 1) {
     // Base case.
     return 1;
   } else {
     // Recursive function.
-    return num * recursiveFunctionFactorial(num - 1);
+    return num * recursive_function_factorial(num - 1);
   }
 }
 
-void recursiveFunction(void) {
+void recursive_function(void) {
   int num;
 
   // Description of the function.
@@ -32,7 +32,8 @@ void recursiveFunction(void) {
 
   // Output the factorial.
   new_tab();
-  printf("Factorial of number %d is %d.", num, recursiveFunctionFactorial(num));
+  printf("Factorial of number %d is %d.", num,
+         recursive_function_factorial(num));
   new_line();
 }
 
@@ -42,7 +43,7 @@ int main(void) {
   new_line();
 
   // Recursive function example.
-  recursiveFunction();
+  recursive_function();
   new_line();
 
   return 0;
