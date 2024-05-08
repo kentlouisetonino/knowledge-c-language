@@ -21,3 +21,26 @@ int a[2][3] = {
 > - An array can have more than two dimensions.
 
 > - Refer to file `code-04.c` function `two_dimensional_array`.
+
+<br />
+<br />
+
+
+
+### Accessing Two-Dimensional Arrays
+#
+
+> - To access an element, both the row and column index are required.
+
+```c
+int a[2][3] = {
+    { 1, 2, 3 },
+    { 4, 5, 6 }
+};
+
+// Will return 1.
+a[0][0];
+
+// Replace the value.
+a[0][0] = 7;
+```
