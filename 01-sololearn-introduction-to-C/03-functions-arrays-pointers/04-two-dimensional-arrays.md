@@ -19,3 +19,5 @@ int a[2][3] = {
 ```
 
 > - An array can have more than two dimensions.
+
+> - Refer to file `code-04.c` function `two_dimensional_array`.
