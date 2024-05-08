@@ -13,7 +13,7 @@ void two_dimensional_array(void) {
   a[0][1] = 2;
 
   new_tab();
-  printf("TWO DIMENSIONAL ARRAY EXAMPLE");
+  printf("TWO-DIMENSIONAL ARRAY EXAMPLE");
   new_line();
   new_tab();
   printf("[0][0]: %d", a[0][0]);
