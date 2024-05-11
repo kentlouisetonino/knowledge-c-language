@@ -31,14 +31,20 @@ void variable_address(void) {
   printf("Hex Value: %x", num);
   add_new_line();
 
+  // Display the bitwise left shift value.
+  add_new_tab();
+  printf("Bitwise Left Shift with 1 value: %d", num << 1);
+  add_new_line();
+
+  // Display the bitwise right shift value.
+  add_new_tab();
+  printf("Bitwise Right Shift with 1 value: %d", num >> 1);
+  add_new_line();
+
   // Diplay the pointer value using p format specifier.
   add_new_tab();
   addressOfX = &num;
   printf("Pointer Value: %p", addressOfX);
-  add_new_line();
-
-  add_new_tab();
-  printf("Pointer Value: %d", num >> 1);
   add_new_line();
 }
 
