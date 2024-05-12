@@ -78,3 +78,4 @@ pointer_type *identifier
 ### Pointers in Expressions
 #
 
+> - Pointers can be used in `expressions`.

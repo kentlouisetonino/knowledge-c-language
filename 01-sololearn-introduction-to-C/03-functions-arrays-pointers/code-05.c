@@ -7,7 +7,7 @@ void add_new_line(void) { printf("\n"); }
 
 void add_new_tab(void) { printf("\t"); }
 
-void variable_address(void) {
+void pointers_address(void) {
   int num;
   int *pNum = NULL;
   int **ppNum = NULL;
@@ -60,13 +60,58 @@ void variable_address(void) {
   add_new_line();
 }
 
+void pointers_expressions(void) {
+  int num1;
+  int num2;
+  int *pNum1 = NULL;
+  pNum1 = &num1;
+
+  // Display the description of the function.
+  add_new_tab();
+  printf("POINTERS EXPRESSIONS EXAMPLE");
+  add_new_line();
+
+  // Ask inputs.
+  add_new_tab();
+  printf("Input num1: ");
+  scanf("%d", &num1);
+
+  // Example 1.
+  num2 = *pNum1 + 2;
+  add_new_tab();
+  printf("Value of num2 when *pNum1 + 2: %d", num2);
+  add_new_line();
+
+  // Example 2.
+  num2 += *pNum1;
+  add_new_tab();
+  printf("Value of num2 when added with *pNum1: %d", num2);
+  add_new_line();
+
+  // Example 3.
+  *pNum1 = num2;
+  add_new_tab();
+  printf("Value of num1 when *pNum1 is assigned with num2 value: %d", num1);
+  add_new_line();
+
+  // Example 4.
+  (*pNum1)++;
+  add_new_tab();
+  printf("Value of num1 when *pNum1 is incremented: %d", num1);
+  add_new_line();
+}
+
 int main(void) {
   // Clear the terminal.
   clear_terminal();
   add_new_line();
 
   // Variable address example.
-  variable_address();
+  pointers_address();
+  add_new_line();
+
+  // Pointer expressions example.
+  pointers_expressions();
   add_new_line();
 
   return 0;
