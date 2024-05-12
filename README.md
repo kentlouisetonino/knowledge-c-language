@@ -1,7 +1,7 @@
 ### Description
 #
 
-> - All C language courses I learned online.
+> - All C language courses and books I learned online.
 
 <br />
 <br />
