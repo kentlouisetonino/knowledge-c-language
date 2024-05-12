@@ -10,3 +10,11 @@
 ```
 
 > - Refer to file `code-06.c` function `pointers_arrays`.
+
+> - An important concept with arrays is that an `array name` acts as
+    a pointer to the first element of the array.
+
+> - Therefore, the statement `ptr = a` can be thought of as `ptr = &a[0]`.
+
+> - Consider the following statement `printf("%d", *a)` to print the first
+    element.

@@ -19,13 +19,16 @@ void pointers_arrays(void) {
 
   // Display the pointer pA before the loop.
   add_new_tab();
-  printf("Memory address of array a before the loop: %p", &a);
+  printf("First element of array via *a: %d", *a);
   add_new_line();
   add_new_tab();
-  printf("Memory address of array a via pointer pA before the loop: %p", pA);
+  printf("Memory address of array a: %p", &a);
   add_new_line();
   add_new_tab();
-  printf("Memory address of pointer pA before the loop: %p", &pA);
+  printf("Memory address of array a via pointer pA: %p", pA);
+  add_new_line();
+  add_new_tab();
+  printf("Memory address of pointer pA: %p", &pA);
   add_new_line();
 
   // Display the output during the loop.
