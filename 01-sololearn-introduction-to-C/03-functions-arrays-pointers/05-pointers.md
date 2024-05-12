@@ -36,4 +36,17 @@ num >> 1
 ### What is Pointer?
 #
 
-> -
+> - `Pointers` allows you to easily work with memory locations.
+
+> - They are fundamental to arrays, strings, and other `data` structures
+    and algorithms.
+
+> - A `pointer` is a variable that contains the address of another
+    variable or it points to the location assigned to a variable and can
+    indirectly access the variable.
+
+> - Pointers are declared using the * symbol.
+
+```c
+pointer_type *identifier
+```
