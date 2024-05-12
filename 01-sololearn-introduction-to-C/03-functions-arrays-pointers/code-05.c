@@ -9,8 +9,8 @@ void add_new_tab(void) { printf("\t"); }
 
 void variable_address(void) {
   int num;
-  int *addressOfNum = NULL;
-  int **pointerAddressOfNum = NULL;
+  int *pNum = NULL;
+  int **ppNum = NULL;
 
   // App description.
   add_new_tab();
@@ -44,20 +44,19 @@ void variable_address(void) {
 
   // Display the pointer value using p format specifier.
   add_new_tab();
-  addressOfNum = &num;
-  printf("Memory address of num: %p", addressOfNum);
+  pNum = &num;
+  printf("Memory address of num: %p", pNum);
   add_new_line();
 
   // Display the address of pointer addressOfX.
   add_new_tab();
-  printf("Memory address of pointer addressOfNum: %p", &addressOfNum);
+  printf("Memory address of pointer pNum: %p", &pNum);
   add_new_line();
 
   // Display the address of pointer addressOfX.
   add_new_tab();
-  pointerAddressOfNum = &addressOfNum;
-  printf("Memory address of addressOfNum (dereferencing): %p",
-         pointerAddressOfNum);
+  ppNum = &pNum;
+  printf("Memory address of addressOfNum (dereferencing): %p", ppNum);
   add_new_line();
 }
 
