@@ -26,3 +26,13 @@ num << 1
 // 111101 (Binary) = 61
 num >> 1
 ```
+
+<br />
+<br />
+
+
+
+### What is Pointer?
+#
+
+> -
