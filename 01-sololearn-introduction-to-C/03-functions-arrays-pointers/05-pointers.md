@@ -69,3 +69,12 @@ pointer_type *identifier
 > - `Deferencing` is the process where we see a pointer is pointing to, use
     the `*` again, as in `*p`. The `*` is called the indirection or `deference`
     operator.
+
+<br />
+<br />
+
+
+
+### Pointers in Expressions
+#
+
