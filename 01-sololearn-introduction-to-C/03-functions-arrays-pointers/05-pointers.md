@@ -27,9 +27,10 @@ num << 1
 num >> 1
 ```
 
-<br />
-<br />
+> - Refer to `code-05.c` file function `variable_address` for sample code.
 
+<br />
+<br />
 
 
 ### What is Pointer?
