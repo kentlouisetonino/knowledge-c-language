@@ -45,8 +45,13 @@ num >> 1
     variable or it points to the location assigned to a variable and can
     indirectly access the variable.
 
-> - Pointers are declared using the * symbol.
+> - Pointers are declared using the `*` symbol.
 
 ```c
 pointer_type *identifier
 ```
+
+> - The `pointer_type` is the type of data the pointer will be pointing to.
+
+> - The actual pointer data type is a hexadecimal number, but when declaring
+    a pointer, you must indicate what type of data it will be pointing to.

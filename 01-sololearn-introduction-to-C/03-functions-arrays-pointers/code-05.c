@@ -9,7 +9,7 @@ void add_new_tab(void) { printf("\t"); }
 
 void variable_address(void) {
   int num;
-  int *addressOfX;
+  int *addressOfNum = NULL;
 
   // App description.
   add_new_tab();
@@ -41,10 +41,15 @@ void variable_address(void) {
   printf("Bitwise Right Shift with 1 value: %d", num >> 1);
   add_new_line();
 
-  // Diplay the pointer value using p format specifier.
+  // Display the pointer value using p format specifier.
   add_new_tab();
-  addressOfX = &num;
-  printf("Pointer Value: %p", addressOfX);
+  addressOfNum = &num;
+  printf("Memory address of num: %p", addressOfNum);
+  add_new_line();
+
+  // Display the address of pointer addressOfX.
+  add_new_tab();
+  printf("Memory address of pointer addressOfNum: %p", &addressOfNum);
   add_new_line();
 }
 
