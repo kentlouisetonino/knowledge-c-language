@@ -55,3 +55,17 @@ pointer_type *identifier
 
 > - The actual pointer data type is a hexadecimal number, but when declaring
     a pointer, you must indicate what type of data it will be pointing to.
+
+> - Refer to `code-05.c` file function `variable_address` for sample code.
+
+```plaintext
+- Pointers should be initialized to NULL until they are assigned a valid
+  location.
+
+- Pointers can be assigned the address of a variable using the ampersand (&)
+  sign.
+```
+
+> - `Deferencing` is the process where we see a pointer is pointing to, use
+    the `*` again, as in `*p`. The `*` is called the indirection or `deference`
+    operator.
