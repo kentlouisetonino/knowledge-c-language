@@ -27,7 +27,7 @@
 ### More Address Arithmetic
 #
 
-> - Refer to file `code-06` function `more_address_arithmetic()`.
+> - Refer to file `code-06.c` function `more_address_arithmetic()`.
 
 > - Address arithmetic can also be thought of as pointer arithmetic <br />
     the operations involve pointers.
@@ -47,8 +47,13 @@
 ### Pointers and Functions
 #
 
+> - Refer to file `code-06.c` function `pointers_function()`.
+
 > - With pointer parameters, your functions can alter actual data <br />
     rather than a copy of data.
 
 > - To change the actual values of variabls, the calling statement <br />
     passes addresses to pointer parameters in a function.
+
+> - In the example above, the program swaps the actual values of the <br />
+    variables, as the function accesses them by using pointers.
