@@ -38,3 +38,17 @@
 
 > - When a pointer is incremented, the memory address increases by the <br />
     number of bytes being pointed to.
+
+<br />
+<br />
+
+
+
+### Pointers and Functions
+#
+
+> - With pointer parameters, your functions can alter actual data <br />
+    rather than a copy of data.
+
+> - To change the actual values of variabls, the calling statement <br />
+    passes addresses to pointer parameters in a function.

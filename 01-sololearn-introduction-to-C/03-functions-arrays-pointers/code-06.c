@@ -71,6 +71,33 @@ void more_address_arithmetic(void) {
   add_new_line();
 }
 
+void swap_function(int *num1, int *num2) {
+  int temp;
+
+  temp = *num1;
+  *num1 = *num2;
+  *num2 = temp;
+}
+
+void pointers_function(void) {
+  int x = 25;
+  int y = 100;
+
+  // Description of the function.
+  add_new_tab();
+  printf("POINTERS FUNCTION EXAMPLE");
+  add_new_line();
+
+  // Display the output.
+  add_new_tab();
+  printf("Before swap: x=%d, y=%d", x, y);
+  add_new_line();
+  swap_function(&x, &y);
+  add_new_tab();
+  printf("After swap: x=%d, x=%d", x, y);
+  add_new_line();
+}
+
 int main(void) {
   // Cleanup the terminal.
   clear_screen();
@@ -82,6 +109,10 @@ int main(void) {
 
   // More address arithmetic example.
   more_address_arithmetic();
+  add_new_line();
+
+  // Pointer function example.
+  pointers_function();
   add_new_line();
 
   return 0;
