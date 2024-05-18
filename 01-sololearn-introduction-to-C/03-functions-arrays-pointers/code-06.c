@@ -39,6 +39,38 @@ void pointers_arrays(void) {
   }
 }
 
+void more_address_arithmetic(void) {
+  int a[5] = {22, 23, 24, 25, 26};
+  int *ptr = NULL;
+
+  // Display description of the function.
+  add_new_tab();
+  printf("MORE ADDRESS ARITHMETIC");
+  add_new_line();
+
+  // Output the samples.
+  ptr = a;
+  add_new_tab();
+  printf("%d %p", *ptr, ptr);
+  add_new_line();
+  ptr++;
+  add_new_tab();
+  printf("%d %p", *ptr, ptr);
+  add_new_line();
+  ptr += 3;
+  add_new_tab();
+  printf("%d %p", *ptr, ptr);
+  add_new_line();
+  ptr--;
+  add_new_tab();
+  printf("%d %p", *ptr, ptr);
+  add_new_line();
+  ptr -= 2;
+  add_new_tab();
+  printf("%d %p", *ptr, ptr);
+  add_new_line();
+}
+
 int main(void) {
   // Cleanup the terminal.
   clear_screen();
@@ -46,6 +78,10 @@ int main(void) {
 
   // Pointers arrays example.
   pointers_arrays();
+  add_new_line();
+
+  // More address arithmetic example.
+  more_address_arithmetic();
   add_new_line();
 
   return 0;
