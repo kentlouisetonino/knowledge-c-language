@@ -35,3 +35,6 @@
 > - Besides using `+` and `-` to refer to the next and previous <br />
     memory locations, you can use the assignment operators to change <br />
     the address the pointer contains.
+
+> - When a pointer is incremented, the memory address increases by the <br />
+    number of bytes being pointed to.
