@@ -27,3 +27,9 @@
 ### More Address Arithmetic
 #
 
+> - Address arithmetic can also be thought of as pointer arithmetic <br />
+    the operations involve pointers.
+
+> - Besides using `+` and `-` to refer to the next and previous <br />
+    memory locations, you can use the assignment operators to change <br />
+    the address the pointer contains.
