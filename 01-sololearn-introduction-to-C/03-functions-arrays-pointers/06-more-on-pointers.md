@@ -18,3 +18,12 @@
 
 > - Consider the following statement `printf("%d", *a)` to print the first
     element.
+
+<br />
+<br />
+
+
+
+### More Address Arithmetic
+#
+
