@@ -27,6 +27,8 @@
 ### More Address Arithmetic
 #
 
+> - Refer to file `code-06` function `more_address_arithmetic()`.
+
 > - Address arithmetic can also be thought of as pointer arithmetic <br />
     the operations involve pointers.
 
