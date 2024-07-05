@@ -28,8 +28,8 @@ int main(void) {
   printf("INDEX: value, address\n");
 
   for (int i = 0; i < 5; i++) {
-    printf("%d: %d, %p\n", i, array_of_even_numbers[i],
-           &array_of_even_numbers[i]);
+    printf("%d: %d, %d, %p\n", i, array_of_even_numbers[i],
+           *(array_of_even_numbers + i), &array_of_even_numbers[i]);
   }
 
   printf("\n\n");

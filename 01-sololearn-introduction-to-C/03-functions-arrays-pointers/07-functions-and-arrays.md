@@ -63,11 +63,19 @@ int main() {
     int k;
 
     a = get_evens(); /* get first 5 even numbers */
-    for (k = 0; k < 5; k++)
-      printf("%d\n", a[k]);
+    for (k = 0; k < 5; k++) {
+        // a[k] is same as *(a + k).
+        printf("%d\n", a[k]);
+    }
 
     return 0;
 }
 ```
 
 > - Refer to [code-08.c](./code-08.c) file.
+
+> - Note that a pointer, not an array, is declared to store the <br />
+    value returned by the function.
+
+> - Also note that when a local variable is being passed out of <br />
+    function, you need to declare it as `static` in the function.
