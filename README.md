@@ -1,5 +1,4 @@
-### Description
-#
+## $\textnormal{Description}$
 
 > - All things I learned about C language.
 
@@ -8,8 +7,7 @@
 
 
 
-### Tools
-#
+## $\textnormal{Tools}$
 
 ```bash
 // GNU GCC Compiler.
