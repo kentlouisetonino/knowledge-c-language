@@ -54,3 +54,54 @@ int main() {
 | strupr() | Convert string to upper case. |
 | strrev() | Reverse string. |
 | strcmp() | Compare two strings. |
+
+<br />
+<br />
+
+
+
+##  String Input
+
+<br />
+
+| scanf() |
+| ------- |
+| Use to read input according to the format specifiers. |
+| Used to read a string with no address operator. |
+| Stops reading input when it reaches a space. |
+
+<br />
+
+| gets() |
+| ------ |
+| Read a string with spaces. |
+| Reads input until a terminating newline is reached. |
+
+<br />
+
+| fgets() |
+| ------- |
+| Reads up to a specified number of characters. |
+| Prevents a buffer overlow (when string array isn't big enough for the typed text). |
+| `stdin` means to read from the standard input, which is the keyboard. |
+| Reads only `n - 1` characters from the `stdin` because there must be room for `\0`|
+
+<br />
+<br />
+
+
+
+## String Output
+
+<br />
+
+| fputs() |
+| ------- |
+| Requires the name of the string and a pointer to where you want to print the string. |
+| `fputs(city, stdout)` |
+
+<br />
+
+| puts() |
+| ------ |
+| Takes only a string argument and can also be used to display output. |
