@@ -8,3 +8,7 @@
 ```c
 char str_name[str_len] = "string";
 ```
+
+> - When you provide a `string literal` to initialize the <br />
+    string, the compiler automatically adds a `NULL` character <br />
+    `'0'` to the char array.
