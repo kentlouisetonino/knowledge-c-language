@@ -43,6 +43,8 @@ int main() {
 > - A string pointer declaration such as `char *str = "stuff";`, is <br />
     considered a constant and cannot be changed from its value.
 
+<br />
+
 | Standard Library String Functions | Description |
 | --------------------------------- | ----------- |
 | strlen() | Get length of a string. |
