@@ -15,7 +15,7 @@ struct course {
 };
 ```
 
-> - A `Structure` is also called a `composite` or `aggregate` data <br />
+> - A `structure` is also called a `composite` or `aggregate` data <br />
     type and some languages refer it as `records`.
 
 > - Refer to [code01.c](./code01.c) file for example.
@@ -84,7 +84,7 @@ int main() {
     needed for a struct, just as with the basic data types.
 
 > - The `sprintf` function store the output on char `buffer` which <br />
-    which are specified in sprintf.
+    are specified in sprintf.
 
 > - In C, `buffer` is referred to as a sequential section of memory <br />
     that is used to temporarily store some data that is being <br />
