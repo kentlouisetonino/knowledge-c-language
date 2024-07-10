@@ -31,9 +31,9 @@ Sizeof title Variable: 50
 Sizeof hours Variable: 4
 ```
 
-> - Based on the example code above, the struct will have a `Structure padding` <br />
-    which is a technique to memory boundaries. It involes <br />
-    additional bytes known as `padding bytes`, between the fields <br />
-    to ensure proper alignment and efficient memory access. This <br />
-    result to a struct size being larger than the sum of the sizes <br />
-    of its individual members.
+> - Based on the example code above, the struct will have a `structure padding` <br />
+    which is a technique to memory boundaries.
+
+> - `struct padding` involes additional bytes known as `padding bytes`, between <br />
+    the fields to ensure proper alignment and efficient memory access which result <br />
+    to a struct size being larger than the sum of the sizes of its individual members.
