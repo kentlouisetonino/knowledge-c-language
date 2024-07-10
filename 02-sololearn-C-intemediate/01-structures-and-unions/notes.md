@@ -1,11 +1,11 @@
 ## $\textnormal{Structures}$
 
-> - A `Structure` is a user-defined data type that groups related <br />
+> - A `structure` is a user-defined data type that groups related <br />
     variables of different data types.
 
-> - A `Structure Declaration` includes the keyword `struct`, a <br />
-    for referencing the structure, and curly braces { } with a <br />
-    list of variable declarations called `members`.
+> - A `structure declaration` includes the keyword `struct`, a <br />
+    structure tag for referencing the structure, and curly braces {} <br />
+    with a list of variable declarations called `members`.
 
 ```c
 struct course {
