@@ -75,3 +75,8 @@ int main() {
     return 0;
 }
 ```
+
+> - A `struct variable` is stored in a contiguous block of memory.
+
+> - The `sizeof` operator must be used to get the number of bytes
+    needed for a struct, just as with the basic data types.
