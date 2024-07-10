@@ -10,7 +10,7 @@ void add_new_line(void) { printf("\n"); }
 
 int main(void) {
   add_new_line();
-  printf("Course SizeOf: %ld", 60 * sizeof(struct course));
+  printf("Course SizeOf: %ld", sizeof(struct course));
   add_new_line();
   add_new_line();
 
