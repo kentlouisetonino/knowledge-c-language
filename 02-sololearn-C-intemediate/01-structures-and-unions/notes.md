@@ -76,6 +76,8 @@ int main() {
 }
 ```
 
+> - Refer to [code-02.c](./code-02.c) file.
+
 > - A `struct variable` is stored in a contiguous block of memory.
 
 > - The `sizeof` operator must be used to get the number of bytes <br />
