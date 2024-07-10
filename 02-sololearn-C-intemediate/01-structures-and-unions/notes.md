@@ -123,5 +123,11 @@ int main() {
 > - If you want to initialize a structure using curly braces after <br />
     declartion, you will also need to `type cast`, as in the statements.
 
+```c
+// Example 2.
+struct human h1;
+h1 =  (struct human) { 19, "Kent" };
+```
+
 > - You can use named member initialization when initializing a structure <br />
     to initialize corresponding members.
