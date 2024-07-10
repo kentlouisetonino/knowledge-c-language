@@ -78,5 +78,12 @@ int main() {
 
 > - A `struct variable` is stored in a contiguous block of memory.
 
-> - The `sizeof` operator must be used to get the number of bytes
+> - The `sizeof` operator must be used to get the number of bytes <br />
     needed for a struct, just as with the basic data types.
+
+> - The `sprintf` function store the output on char `buffer` which <br />
+    which are specified in sprintf.
+
+> - In C, `buffer` is referred to as a sequential section of memory <br />
+    that is used to temporarily store some data that is being <br />
+    tranferred from one place to another.
