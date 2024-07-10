@@ -89,3 +89,11 @@ int main() {
 > - In C, `buffer` is referred to as a sequential section of memory <br />
     that is used to temporarily store some data that is being <br />
     tranferred from one place to another.
+
+<br />
+<br />
+<br />
+
+
+
+## $\textnormal{Declarations \ Using \ Structures}$
