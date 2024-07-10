@@ -19,3 +19,21 @@ struct course {
     type and some languages refer it as `records`.
 
 > - Refer to [code01.c](./code01.c) file for example.
+
+```sh
+// Output.
+gcc -o code-01 code-01.c
+./code-01
+
+SizeOf course Struct: 60
+Sizeof id Variable: 4
+Sizeof title Variable: 50
+Sizeof hours Variable: 4
+```
+
+> - Based on the example code above, the struct will have a `Structure padding` <br />
+    which is a technique to memory boundaries. It involes <br />
+    additional bytes known as `padding bytes`, between the fields <br />
+    to ensure proper alignment and efficient memory access. This <br />
+    result to a struct size being larger than the sum of the sizes <br />
+    of its individual members.
