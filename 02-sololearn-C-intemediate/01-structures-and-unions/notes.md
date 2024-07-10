@@ -17,3 +17,5 @@ struct course {
 
 > - A `Structure` is also called a `composite` or `aggregate` data <br />
     type and some languages refer it as `records`.
+
+> - Refer to [code01.c](./code01.c) file for example.
