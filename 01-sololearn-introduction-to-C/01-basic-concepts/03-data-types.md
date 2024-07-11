@@ -1,5 +1,4 @@
-### Data Types
-#
+## $\textnormal{Data \ Types}$
 
 > - Refer to the code `code-03.c` function `dataTypes()`.
 
@@ -41,8 +40,7 @@ char: 1
 
 
 
-### Variables
-#
+## $\textnormal{Variables}$
 
 > - Refer to the code `code-03.c` function `variables()`.
 
@@ -75,8 +73,7 @@ Note
 
 
 
-### Constant
-#
+## $\textnormal{Constant}$
 
 > - Refer to the code `code-03.c` function `constants()`.
 

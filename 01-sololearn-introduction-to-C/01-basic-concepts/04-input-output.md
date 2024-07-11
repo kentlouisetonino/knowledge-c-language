@@ -1,5 +1,4 @@
-### Input
-#
+## $\textnormal{Input}$
 
 > - Refer to `code-04.c` function `inputGetChar()`.
 
@@ -36,11 +35,11 @@ scanf()
 
 <br />
 <br />
+<br />
 
 
 
-### Output
-#
+## $\textnormal{Output}$
 
 > - Refer to `code-04.c` function `outputPutChar()`.
 
@@ -68,11 +67,11 @@ scanf()
 
 <br />
 <br />
+<br />
 
 
 
-### Formatted Input
-#
+## $\textnormal{Formatted \ Input}$
 
 > - Refer to `code-04.c` function `formattedInput()`.
 
@@ -99,11 +98,11 @@ Format Specifier
 
 <br />
 <br />
+<br />
 
 
 
-### Formatted Output
-#
+## $\textnormal{Formatted \ Output}$
 
 > - Refer to `code-04.c` function `formattedOutput()`.
 

@@ -1,5 +1,4 @@
-### Hello World
-#
+## $\textnormal{Hello \ World}$
 
 > - Refer to the sample code `code-hello.c`.
 
