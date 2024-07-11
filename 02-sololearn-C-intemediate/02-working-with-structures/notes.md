@@ -36,3 +36,18 @@ int main() {
 > - The `dot operator` is used twice to access members of members.
 
 > - A `struct definition` must appear before it can be used inside another struct.
+
+<br />
+<br />
+
+
+
+## $\textnormal{Pointers to Structures}$
+
+> - Just like pointers to variables, pointers to structures can also be defined.
+
+```c
+// Example 1.
+// Defines a pointer to the myStruct structure.
+struct myStruct *struct_ptr;
+```
