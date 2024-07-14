@@ -38,3 +38,6 @@ void display_course(course class) {
     printf("%d\t%s\t%3.2f\n", class.id, class.title, class.hours);
 }
 ```
+
+> - As you can see, `update_course()` takes a pointer as the parameter, <br />
+    while `display_course()` takes the structure by value.
