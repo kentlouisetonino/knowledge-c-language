@@ -35,4 +35,8 @@ int main() {
     - When both operands are int data types, "integer division", also
       called "truncated division", removes any remainder to result in
       an integer.
+
+%
+    - Return only the reminder of integer division.
+    - Modulus division cannot be perform on floats and double.
 ```
