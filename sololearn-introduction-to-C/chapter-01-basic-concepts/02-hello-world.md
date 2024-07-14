@@ -91,3 +91,13 @@ return 0;
 - In C, zero is falsiable.
 - Any number greater than or less than zero is truthy.
 ```
+
+```c
+// Example 1.
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
