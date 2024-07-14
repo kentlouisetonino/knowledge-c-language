@@ -60,3 +60,10 @@ int main() {
     return 0;
 }
 ```
+
+> - The `->` operator allows to access members of the struct <br />
+    through the pointer.
+
+> - When a `typedef` has been used to name the struct, then a <br />
+    pointer is declared using only the typedef name along with <br />
+    `*` and the pointer name.
