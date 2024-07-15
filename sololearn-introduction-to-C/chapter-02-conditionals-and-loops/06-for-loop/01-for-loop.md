@@ -31,3 +31,24 @@ int main() {
     }
 }
 ```
+
+```c
+// Example 3.
+for (x = 0, y = num; x < y; i++, y--) {
+  statements;
+}
+```
+
+```c
+// Example 4.
+#include <stdio.h>
+
+int main() {
+    int i=0;
+    int max = 10;
+
+    for (;i < max; i++) {
+        printf("%d\n", i);
+    }
+}
+```
