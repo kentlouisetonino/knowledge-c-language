@@ -32,3 +32,11 @@ int * get_evens () {
     return (nums);
 }
 ```
+
+> - Note that a pointer, not an array, is declared to store the value <br />
+    returned by the function.
+
+> - Also note that when a local variable is being passed out of a <br />
+    function, you need to declare it as `static` in the function.
+
+> - Keep in mind that `a[k]` is the same as `*(a + k)`.
