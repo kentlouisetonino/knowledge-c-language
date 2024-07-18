@@ -36,3 +36,30 @@ int main() {
     return 0;
 }
 ```
+
+> - The NULL character must be added explicitly.
+
+> - Note that the `characters` are enclosed in single quotation marks.
+
+> - As with any array, the name of a string acts as a `pointer`.
+
+> - A string literal is a text enclosed in double quotation marks.
+
+> - A character, such as 'b', is indicated by single quotation marks <br />
+    and cannot be treated as a string.
+
+> - A string pointer declaration such as char `*str  = "stuff";`, is <br />
+    considered a constant and cannot be changed from its initial value.
+
+> - To safely and conveniently operate with strings, you can use the <br />
+    Standard Library string functions shown below.
+
+```plaintext
+strlen()    : Get length of a string.
+strcat()    : Merge two strings.
+strcpy()    : Copy one string to another.
+strlwr()    : Convert string to lower case.
+strupr()    : Convert string to upper case.
+strrev()    : Reverse string.
+strcmp()    : Compare two strings.
+```
