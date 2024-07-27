@@ -1,7 +1,7 @@
 ## $\textnormal{Unions as Function Parameters}$
 
-> - A function can have union parameters that accept arguments
-    `by value` when a copy of the union variable is all that
+> - A function can have union parameters that accept arguments <br />
+    `by value` when a copy of the union variable is all that <br />
     is needed.
 
 > - For a function to change the actual value in a union <br />
