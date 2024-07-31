@@ -9,7 +9,7 @@
 
 ## $\textnormal{Tools}$
 
-```c
+```sh
 # GNU Compiler Collection.
 # Link: https://gcc.gnu.org/
 gcc
