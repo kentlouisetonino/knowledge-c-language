@@ -26,3 +26,21 @@ int main() {
 > - Notice the sizeof was applied to `*ptr` of int, making <br />
     the code more robust should the `*ptr` declaration be changed <br />
     to a different data type later.
+
+> - The allocated memory is `contiguous` and can be treated as an <br />
+    `array`.
+
+> - Instead of using brackets `[]` to refer to elements, pointer <br />
+    arithmetic is used to traverse the array.
+
+> - You are advised to use `+` to refer to array elements.
+
+> - Using `++` or `+=` changes the address stored by the pointer.
+
+> - If the allocation is unsuccessful, `NULL` is returned.
+
+> - Because of this, you should include code to check for a NULL <br />
+    pointer.
+
+> - A simple two-dimensional array requires `(rows*columns)*sizeof(datatype)`  <br />
+    bytes of memory.
