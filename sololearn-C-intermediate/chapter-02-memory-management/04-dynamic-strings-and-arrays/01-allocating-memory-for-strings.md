@@ -25,3 +25,13 @@ int main() {
   return 0;
 }
 ```
+
+> - This approach is better memory management because you aren't <br />
+    allocating more space than is needed to a pointer.
+
+> - When using `strlen` to determine the number of bytes needed <br />
+    for a string, be sure to include one extra byte for the <br />
+    `NULL` character `\0`.
+
+> - A `char` is always one byte, so there is no need to multiply <br />
+    the memory requirements by sizeof(char).
